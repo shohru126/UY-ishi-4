@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7f50, #ff4500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.clock {
+    display: flex;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.time-box {
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.time-box h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.time-box p {
+    margin: 0;
+    font-size: 18px;
+    opacity: 0.8;
+}
